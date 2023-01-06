@@ -14,14 +14,14 @@
  *
  * This will create an instance of the framework allowing you to initialize the theme.
  */
-$bcp = Backdrop\booted() ? Backdrop\app() : new Backdrop\Core\Application();
+$bct = Backdrop\booted() ? Backdrop\app() : new Backdrop\Core\Application();
 
 /**
  * Register default providers
  */
-$bcp->provider( Backdrop\Custom\Theme\Theme\Provider::class );
+$bct->provider( Backdrop\Custom\Theme\Theme\Provider::class );
 
 /**
  * Boot the Framework
  */
-$bcp->boot();
+$bct->boot();

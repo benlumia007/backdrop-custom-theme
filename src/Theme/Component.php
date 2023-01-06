@@ -128,7 +128,7 @@ class Component implements Bootable {
 			'show_in_rest' => true,
 			'supports'     => [ 'title', 'editor', 'thumbnail' ],
 			'taxonomies'   => [ 'theme-subject' ],
-			'rewrite'      => [ 'with_front' => false, 'slug' => 'Theme' ]
+			'rewrite'      => [ 'with_front' => false, 'slug' => 'theme' ]
 		];
 
         register_post_type( 'backdrop-theme', $args );
